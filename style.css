@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto+Condensed:wght@500&display=swap');
+body{
+    background: linear-gradient(45deg,#D11010,#00BBFF);
+    
+    
+}
+h1{
+    font-size: 40px;
+    font-style: normal;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+*{
+    box-sizing: border-box;
+}
+#big_square{
+    width: 688px;
+    height: 688px;
+    border: 3px solid black;
+    margin: auto;
+    background: linear-gradient(45deg,#2471A3,#D11010);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: auto;
+    border-radius: 10px;
+}
+.square{
+    width: 220px;
+    height: 220px;
+    border: 2px solid black;
+    margin: auto;
+    background-color: linear-gradient(45deg,#00BBFF,#D11010);
+    padding: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: auto;
+    border-radius: 10px;
+}
+.small_square{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    margin: auto;
+    line-height: 60px;
+    border-radius: 10px;
+    padding: auto;
+    background-color: #D5D8DC;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+}
+.name{
+    text-align: right;
+    font-style: normal;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: white;
+    line-height: 350px;
+    
+}
